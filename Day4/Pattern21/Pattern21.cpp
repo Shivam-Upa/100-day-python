@@ -18,6 +18,7 @@ int main()
             col += 1;
         }
         int space = n - row + 1;
+        int space = n - row + 1;
         while (space)
         {
             cout << row;
