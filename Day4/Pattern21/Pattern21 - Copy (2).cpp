@@ -10,14 +10,14 @@ int main()
 
     while (row <= n)
     {
-
+        int space = n - row + 1;
         int col = 1;
         while (col <= row)
         {
             cout << " ";
             col += 1;
         }
-        int space = n - row + 1;
+        
         while (space)
         {
             cout << row;
